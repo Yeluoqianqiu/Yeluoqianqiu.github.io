@@ -1,0 +1,248 @@
+{
+    "root": {
+        "data": {
+            "note": "",
+            "id": "root",
+            "text": "数据库"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "194f979874e9",
+                    "text": "三范式"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "7c943bd0672b",
+                            "text": "第一范式：字段不可分割"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "702e9257a2cc",
+                            "text": "第二范式：第一范式基础上消除非主键依赖"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "fd3d049aafc0",
+                            "text": "第三范式：第二范式基础上消除传递依赖"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "8c1a873d6847",
+                    "text": "MySQL架构"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "896a50e774b1",
+                            "text": "应用层：各种语言协议的连接器，如JDBC，pymysql"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "0688fe996802",
+                            "text": "逻辑层：连接池、管理工具和服务、SQL接口、解析器、优化器、缓存"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "c013a9295db7",
+                            "text": "引擎层：表的存储引擎，如InnoDB和MyISAM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "64b48aba8d21",
+                            "text": "物理层：存储binlog、数据文件、错误日志、慢查询日志等物理文件"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "9e06e6d2f559",
+                    "text": "一条SQL SELECT语句的执行过程"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "7c3ef713222a",
+                            "text": ""
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "da31a2b82eb1",
+                    "text": "四个隔离级别"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "fbc1830915e9",
+                    "text": "MVCC"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "c1272e513c0a",
+                            "text": "如何结合next key locking防止幻读"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "c31b4e4adc65",
+                    "text": "索引"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "0223f94c32d3",
+                            "text": "定义：用于提高查询效率的数据结构"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "81fa03d3c608",
+                            "text": "分类"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1475c74e3fe3",
+                                    "text": "数据结构角度：B数、B+数、哈希索引、全文索引"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "e2079801c78d",
+                                    "text": "物理存储角度"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "e850329adaf4",
+                                            "text": "主键索引(聚簇索引)：叶节点存整行数据"
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "ce1212a0dd57",
+                                            "text": "非主键索引：叶节点存主键值"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "b6835bdad9f6",
+                    "text": "MySQL锁按粒度分类"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "410368bd16c1",
+                            "text": "表级锁：实现简单但并发能力差"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "784942942f41",
+                            "text": "行级锁：锁住一行，实际锁的索引，没有索引时InnoDB创建一个隐藏的聚簇索引加锁。冲突小，并发度高，但开销大，且可能导致死锁。"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "78fc360735a3",
+                            "text": "间隙锁：锁定相邻索引的间隙，防止幻行插入，从而避免幻读"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "72259a4a7ead",
+                            "text": "Next-key Lock：行锁+间隙锁"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "6e4bdd2a31c9",
+                    "text": "存储引擎"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "d66a1f91f229",
+                            "text": "InnoDB"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "b6aeae442457",
+                            "text": "MyISAM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "6da48d5a1140",
+                            "text": "InnoDB与MyISAM的对比"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "40c1006144e0",
+                            "text": "Memory"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6f88f6457afb",
+                                    "text": "所有数据存于内存，不需要磁盘IO，支持哈希索引，查询效率极高，同样只支持表级锁，并发写入效率低"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

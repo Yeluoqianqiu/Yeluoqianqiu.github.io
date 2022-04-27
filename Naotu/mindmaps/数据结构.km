@@ -1,0 +1,250 @@
+{
+    "root": {
+        "data": {
+            "note": "",
+            "id": "root",
+            "text": "数据结构"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "69bda64c9aa7",
+                    "text": "线性表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "note": "只能在一端插入或删除，FILO",
+                            "id": "71cd623ae4b0",
+                            "text": "栈"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "note": "限定只能在一端插入，在另一端删除，FIFO",
+                            "id": "446c1fc3ddb8",
+                            "text": "队列"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "59da134f6135",
+                    "text": "二叉树"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "7f2da2bfb6ee",
+                            "text": "满二叉树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "3b5437d6415d",
+                            "text": "完全二叉树"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "f9677d721e3d",
+                                    "text": "堆"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "27b48ad9ad59",
+                            "text": "AVL树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "b7bffc88ba32",
+                            "text": "红黑树"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "18b24525be24",
+                            "text": "二叉树的前中后序遍历"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "250e48eb1aad",
+                    "text": "图"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "1778a6e61c2f",
+                            "text": "邻接表"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "1574a4b2fd38",
+                            "text": "邻接矩阵"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "1788dc9ee060",
+                            "text": "图的DFS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "406ce3050775",
+                            "text": "图的BFS"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "fea0e7b896ca",
+                            "text": "最小生成树"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "adbbdd530f97",
+                                    "text": "prim算法"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "56c5d26d107e",
+                                    "text": "克鲁斯卡尔算法"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "718239089fe4",
+                            "text": "最短路径算法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "854f129e8b23",
+                                    "text": "Dijkstra"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "43fe217b243f",
+                    "text": "散列表"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "a66d1eb83b2f",
+                            "text": "解决hash冲突的方法"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "5be472369a6a",
+                    "text": "排序"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "fb0cca8d6788",
+                            "text": "稳定排序算法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "a97392acb0e6",
+                                    "text": "插入排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "120e3d38bafb",
+                                    "text": "冒泡排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "b89beb758107",
+                                    "text": "归并排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "54d973859e3f",
+                            "text": "不稳定排序算法"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "536b839244d2",
+                                    "text": "希尔排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4c1d3770e9ac",
+                                    "text": "直接选择排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "f3f5c269f014",
+                                    "text": "堆排序"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4cda16f97b7c",
+                                    "text": "快速排序"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
