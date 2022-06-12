@@ -1,0 +1,112 @@
+{
+    "root": {
+        "data": {
+            "id": "cjlnmp07o3s0",
+            "created": 1651126879530,
+            "text": "MySQL技术内幕"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cjlnso38hug0",
+                    "created": 1651127347721,
+                    "text": "数据库与数据库实例",
+                    "note": "MySQL中，**数据库**是物理文件的集合，**数据库实例**是管理数据库数据的进程，对数据库中数据的增删改查等一切操作均由数据库实例完成。\n\nMySQL采用**单进程多线程**架构，一个数据库实例在系统上的表现就是一个进程。"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ck4ogqsl41c0",
+                    "created": 1653058873524,
+                    "text": "启动实例时加载配置顺序",
+                    "note": "`/etc/my.cnf -> /etc/mysql/my.cnf -> /usr/local/mysql/etc/my.cnf -> ~/.my.cnf` 参数以最后一个读到的配置文件为准"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ck4p6epoasw0",
+                    "created": 1653060884695,
+                    "text": "MySQL体系结构",
+                    "layout_mind_offset": {
+                        "x": -13.000000193715096,
+                        "y": 0
+                    },
+                    "note": "![](https://yeluoqianqiu.github.io/assets/20130611080522375-20210325204022-e3amsb8.jfif)"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ck4p96ueyps0",
+                    "created": 1653061102660,
+                    "text": "MySQL存储引擎",
+                    "note": "存储引擎是基于MySQL数据库的核心。\n存储引擎是基于表的，而不是基于数据库。"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ck4pastkeaw0",
+                            "created": 1653061228862,
+                            "text": "InnoDB",
+                            "note": "支持事务，主要面向OLTP应用"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pauspbls0",
+                            "created": 1653061233163,
+                            "text": "MyISAM"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pb28u2e80",
+                            "created": 1653061249376,
+                            "text": "NDB"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pb4c9ap40",
+                            "created": 1653061253936,
+                            "text": "Memory"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pb8y1psw0",
+                            "created": 1653061263961,
+                            "text": "Archive"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pbai5stc0",
+                            "created": 1653061267354,
+                            "text": "Federated"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ck4pbdnke3s0",
+                            "created": 1653061274211,
+                            "text": "Maria"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
